@@ -18,10 +18,10 @@ Why This Matters for Future Design
 
 If you're designing anything AI-related, this is the reusable lesson:
 
-Old assumption	Better design principle
-Give the AI more raw memory	Give the AI a system to manage memory
-Memory = passive storage	Memory = active, tiered, and self-editable
-Bigger context window fixes forgetfulness	Smart retrieval + summarization beats brute-force size
-One flat memory store	Separate "working memory" (fast, small, always visible) from "archive" (large, searchable, fetched on demand)
+Old assumption---Better design principle
+Give the AI more raw memory |	Give the AI a system to manage memory
+Memory = passive storage |	Memory = active, tiered, and self-editable
+Bigger context window fixes forgetfulness |	Smart retrieval + summarization beats brute-force size
+One flat memory store |	Separate "working memory" (fast, small, always visible) from "archive" (large, searchable, fetched on demand)
 
 The core design pattern to steal: scarcity forces intelligence. Instead of removing the constraint, build a smart system that works well within the constraint — much like how OS design didn't wait for infinite RAM, it built paging instead.
